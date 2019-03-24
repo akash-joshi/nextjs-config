@@ -1,2 +1,4 @@
-# nextjs-config
-🔥 My nextjs config with eslint and styled-components
+# gigindia
+
+1) ```npm i```
+2) ```npm run dev```
