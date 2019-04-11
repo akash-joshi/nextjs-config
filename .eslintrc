@@ -10,6 +10,7 @@
     "node": true
   },
   "rules": {
+    "react/react-in-jsx-scope": "off",
     "consistent-return": "off",
     "no-console": "off",
     "react/jsx-filename-extension": [
