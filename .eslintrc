@@ -10,6 +10,7 @@
     "node": true
   },
   "rules": {
+    "no-alert":"off",
     "react/react-in-jsx-scope": "off",
     "consistent-return": "off",
     "no-console": "off",
