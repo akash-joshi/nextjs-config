@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
+    "dev": "npx supervisor -i /.next -e html,js server.js",
     "build": "next build",
-    "start": "next start",
+    "now-build": "next build",
+    "start": "NODE_ENV=production node server.js",
     "lint": "./node_modules/.bin/eslint . --fix",
     "export": "next export"
   },
@@ -16,6 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "immer": "^2.1.4",
     "materialize-css": "^1.0.0",
     "next": "^8.0.3",
@@ -35,19 +38,12 @@
     "babel-eslint": "^10.0.1",
     "babel-plugin-styled-components": "^1.10.0",
     "babel-preset-env": "^1.7.0",
-    "chai": "^4.1.2",
     "eslint": "^4.12.0",
-    "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.5.1",
-    "mocha": "^5.2.0",
-    "nock": "^9.3.3",
-    "nodemon": "^1.18.6",
-    "prettier": "^1.10.2",
-    "redux-mock-store": "^1.5.3",
-    "sinon": "^6.0.0"
+    "prettier": "^1.10.2"
   }
 }

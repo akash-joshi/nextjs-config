@@ -27,6 +27,9 @@ export default class MyDocument extends Document {
           <link href="/static/min.css" rel="stylesheet" />
           <link href="/static/materialize.min.css" rel="stylesheet" />
           <link href="/static/materialize.min.js" rel="stylesheet" />
+          <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" />
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
           {this.props.styleTags}
         </Head>
         <body>

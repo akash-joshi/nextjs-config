@@ -1,6 +1,6 @@
 {
   "extends": [
-    "airbnb",
+    "eslint-plugin-react",
     "prettier",
     "prettier/react"
   ],
@@ -10,6 +10,11 @@
     "node": true
   },
   "rules": {
+    "global-require":"off",
+    "jsx-a11y/label-has-for":"off",
+    "jsx-a11y/anchor-is-valid":"off",
+    "prefer-spread":"off",
+    "jsx-a11y/accessible-emoji":"off",
     "no-alert":"off",
     "react/react-in-jsx-scope": "off",
     "consistent-return": "off",
