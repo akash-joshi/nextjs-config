@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx supervisor -i /.next -e html,js server.js",
+    "dev": "npx supervisor -i .next,node_modules,out -e html,js server.js",
     "build": "next build",
     "now-build": "next build",
     "start": "NODE_ENV=production node server.js",
