@@ -23,6 +23,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <title>Page</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <link href="/static/min.css" rel="stylesheet" />
           <link href="/static/materialize.min.css" rel="stylesheet" />

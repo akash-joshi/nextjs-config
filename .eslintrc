@@ -1,6 +1,7 @@
 {
   "extends": [
-    "eslint-plugin-react",
+    "eslint:recommended",
+    "plugin:react/recommended",
     "prettier",
     "prettier/react"
   ],
@@ -10,6 +11,8 @@
     "node": true
   },
   "rules": {
+    "react/prop-types":"off",
+    "react/no-unescaped-entities":"off",
     "global-require":"off",
     "jsx-a11y/label-has-for":"off",
     "jsx-a11y/anchor-is-valid":"off",
